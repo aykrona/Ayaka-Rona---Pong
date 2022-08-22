@@ -1,0 +1,12 @@
+
+Assets/Physics.meta
+
+Library/* 
+Logs/* 
+Temp/* 
+.vs/*
+obj/*
+ 
+.vsconfig 
+*.sln 
+*.csproj
