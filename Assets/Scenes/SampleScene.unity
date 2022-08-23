@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 327687890}
   - component: {fileID: 327687889}
+  - component: {fileID: 327687891}
   m_Layer: 0
   m_Name: Wall Up
   m_TagString: Untagged
@@ -205,6 +206,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &327687891
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327687888}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &359589123
 GameObject:
   m_ObjectHideFlags: 0
@@ -302,7 +329,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 707855c4fc294304a9b7d0f925d7afb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: {x: 2, y: 0}
+  speed: {x: 4, y: 0}
 --- !u!50 &359589127
 Rigidbody2D:
   serializedVersion: 4
@@ -437,7 +464,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0c5858e71bdff84e8b530d2b1352bd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 4
   upKey: 113
   downKey: 97
 --- !u!50 &665794396
@@ -760,7 +787,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0c5858e71bdff84e8b530d2b1352bd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 4
   upKey: 119
   downKey: 115
 --- !u!50 &1647327044
@@ -902,6 +929,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1697543250}
   - component: {fileID: 1697543249}
+  - component: {fileID: 1697543251}
   m_Layer: 0
   m_Name: Wall Below
   m_TagString: Untagged
@@ -974,3 +1002,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1697543251
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1697543248}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
